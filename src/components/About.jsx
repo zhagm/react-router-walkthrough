@@ -8,7 +8,7 @@ function About(props) {
       <h1>About</h1>
       <button
         onClick={() => {
-          /* Implement this button to redirect us to "/contact" on click */
+          props.history.push("/contact");
         }}
       >
         Contact Us
